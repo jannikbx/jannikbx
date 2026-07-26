@@ -105,14 +105,33 @@ I combine a background in **education & pedagogy**, **regional management**, and
 
 ---
 
+## 🏠 Self-Hosted Infrastructure
+
+> **35+ containers** running on Proxmox, managed with Portainer Business Edition on Debian behind an Nginx reverse proxy.
+
+| Stack | Services |
+|-------|----------|
+| **☁️ Nextcloud Hub** | Nextcloud 34, Talk (Signaling, Janus, Coturn, NATS), Redis, PostgreSQL 17, Adminer, Cron, Push, AppAPI |
+| **📄 Paperless-ngx** | Document Management System, Gotenberg, Apache Tika, Redis 7, PostgreSQL 16 |
+| **🎫 Zammad** | Helpdesk — Railsserver, Nginx, WebSocket, Elasticsearch, Backup, Scheduler, Memcached, Redis, PostgreSQL 15 |
+| **🤖 n8n** | Workflow & API Automation |
+| **🧠 Open WebUI** | AI Chat Interface with LLM Integration |
+| **🖥️ RustDesk** | Self-Hosted Remote Desktop (Relay + Signaling) |
+| **📱 Headwind MDM** | Mobile Device Management + PostgreSQL |
+| **🔍 Patchmon** | Patch Monitoring (Backend, Frontend, PostgreSQL 17, Redis) |
+| **🌐 Nginx Proxy Manager** | Reverse Proxy & TLS Termination |
+| **🐳 Portainer EE** | Container Orchestration & Management |
+| **🗃️ Odoo ERP** | Enterprise Resource Planning (on standby) |
+| **💾 Archive Warrior** | Internet Archive Preservation (2 instances) |
+
+---
+
 ## 📦 Featured Projects
 
 <a href="https://github.com/jannikbx/Munz-Cockpit">
   <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=jannikbx&repo=Munz-Cockpit&theme=github_dark&hide_border=true" />
 </a>
 <br><br>
-
-> *More projects coming soon — currently upgrading infrastructure and building tooling behind the scenes.*
 
 ---
 
@@ -135,11 +154,13 @@ I combine a background in **education & pedagogy**, **regional management**, and
 
 ## 🎯 Current Focus
 
-- 🏗️ Building internal tooling & automation workflows
-- 🐳 Containerizing & orchestrating services with Docker
-- 🤖 Experimenting with AI agents & LLM integration
-- 📊 Developing a measurement tech management dashboard *(Munz-Cockpit)*
-- 🔐 Hardening self-hosted infrastructure
+- 🏗️ Building **Munz-Cockpit** — a measurement tech management dashboard
+- 🐳 Expanding the self-hosted stack with **35+ Docker containers** on Proxmox
+- 🤖 Integrating **AI agents & LLMs** into daily workflows (n8n + Open WebUI)
+- 📄 Automating document workflows with **Paperless-ngx**
+- 🎫 Streamlining support operations with **Zammad** Helpdesk
+- 🔐 Hardening infrastructure — Cloudflare Tunnel, UFW, reverse proxy security
+- 🕸️ Contributing to the **Internet Archive** via ArchiveTeam Warrior
 
 ---
 
