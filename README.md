@@ -105,24 +105,23 @@ I combine a background in **education & pedagogy**, **regional management**, and
 
 ---
 
-## 🏠 Self-Hosted Infrastructure
+## ⚙️ Infrastructure & Operations
 
-> **35+ containers** running on Proxmox, managed with Portainer Business Edition on Debian behind an Nginx reverse proxy.
+Managing **35+ containerized services** across 12 stacks on Debian-based Proxmox infrastructure, orchestrated with Portainer Business Edition behind Nginx reverse proxy with TLS termination.
 
-| Stack | Services |
-|-------|----------|
-| **☁️ Nextcloud Hub** | Nextcloud 34, Talk (Signaling, Janus, Coturn, NATS), Redis, PostgreSQL 17, Adminer, Cron, Push, AppAPI |
-| **📄 Paperless-ngx** | Document Management System, Gotenberg, Apache Tika, Redis 7, PostgreSQL 16 |
-| **🎫 Zammad** | Helpdesk — Railsserver, Nginx, WebSocket, Elasticsearch, Backup, Scheduler, Memcached, Redis, PostgreSQL 15 |
-| **🤖 n8n** | Workflow & API Automation |
-| **🧠 Open WebUI** | AI Chat Interface with LLM Integration |
-| **🖥️ RustDesk** | Self-Hosted Remote Desktop (Relay + Signaling) |
-| **📱 Headwind MDM** | Mobile Device Management + PostgreSQL |
-| **🔍 Patchmon** | Patch Monitoring (Backend, Frontend, PostgreSQL 17, Redis) |
-| **🌐 Nginx Proxy Manager** | Reverse Proxy & TLS Termination |
-| **🐳 Portainer EE** | Container Orchestration & Management |
-| **🗃️ Odoo ERP** | Enterprise Resource Planning (on standby) |
-| **💾 Archive Warrior** | Internet Archive Preservation (2 instances) |
+| Service | Stack |
+|---------|-------|
+| **Nextcloud Hub** `v34` | Enterprise collaboration — file sync, Talk (WebRTC via Janus/Coturn/NATS), Calendar, Mail, AppAPI runtime |
+| **Paperless-ngx** | Intelligent document management & OCR pipeline (Gotenberg, Apache Tika) |
+| **Zammad** | IT service management & helpdesk (Elasticsearch, Redis, Memcached, automated backups) |
+| **n8n** | Workflow automation & API orchestration |
+| **Open WebUI** | AI operations interface with LLM integration |
+| **RustDesk Server** | Enterprise remote desktop infrastructure (relay + signaling) |
+| **Headwind MDM** | Mobile device fleet management |
+| **Patchmon** | Automated patch & vulnerability monitoring |
+| **Nginx Proxy Manager** | Reverse proxy, TLS termination, access control |
+| **Portainer EE** | Container orchestration, monitoring & lifecycle management |
+| **Odoo ERP** `v18` | Enterprise resource planning (standby) |
 
 ---
 
