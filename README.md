@@ -11,9 +11,9 @@ Office management meets tech: I keep both the office and the servers running at 
 [![Checkmate](https://img.shields.io/badge/Checkmate-00C7B7?logo=github&logoColor=white)](https://github.com/bluewave-labs/Checkmate)
 [![ESP32](https://img.shields.io/badge/ESP32-00979D?logo=arduino&logoColor=white)](https://github.com/AlphaLima/ESP32-Serial-Bridge)
 
-## 🖥️ Self-hosted Stack
+## 🖥️ Infrastructure
 
-Services I run on my own infrastructure (Portainer):
+Services I manage:
 
 [![Nextcloud](https://img.shields.io/badge/Nextcloud-0082C9?logo=nextcloud&logoColor=white)](https://github.com/nextcloud)
 [![Paperless-ngx](https://img.shields.io/badge/Paperless--ngx-175DDC?logo=paperless-ngx&logoColor=white)](https://github.com/paperless-ngx/paperless-ngx)
@@ -24,7 +24,6 @@ Services I run on my own infrastructure (Portainer):
 [![Headwind MDM](https://img.shields.io/badge/Headwind%20MDM-0F6CBF)](https://github.com/hmdm-project)
 [![Nginx Proxy Manager](https://img.shields.io/badge/Nginx%20Proxy%20Manager-009639?logo=nginx&logoColor=white)](https://nginxproxymanager.com)
 [![Odoo](https://img.shields.io/badge/Odoo-714B67?logo=odoo&logoColor=white)](https://www.odoo.com)
-[![Portainer](https://img.shields.io/badge/Portainer-13BEF9?logo=portainer&logoColor=white)](https://www.portainer.io)
 
 ## 🛠️ Tech Stack
 
@@ -34,7 +33,6 @@ Services I run on my own infrastructure (Portainer):
 ![Python](https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=white)
 ![PHP](https://img.shields.io/badge/PHP-777BB4?logo=php&logoColor=white)
 ![n8n](https://img.shields.io/badge/n8n-EA4B71?logo=n8n&logoColor=white)
-![Portainer](https://img.shields.io/badge/Portainer-13BEF9?logo=portainer&logoColor=white)
 
 ## 📊 GitHub Stats
 
